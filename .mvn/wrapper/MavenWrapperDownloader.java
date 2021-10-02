@@ -52,7 +52,7 @@ public class MavenWrapperDownloader {
 
         // If the maven-wrapper.properties exists, read it and check if it contains a custom
         // wrapperUrl parameter.
-        File mavenWrapperPropertyFile = new File(baseDirectory, MAVEN_WRAPPER_PROPERTIES_PATH);
+        File mavenWrapperPropertyFile = new File(baseDirectory.getAbsolutePath(), MAVEN_WRAPPER_PROPERTIES_PATH);
         String url = DEFAULT_DOWNLOAD_URL;
         if(mavenWrapperPropertyFile.exists()) {
             FileInputStream mavenWrapperPropertyFileInputStream = null;
