@@ -1,5 +1,13 @@
 # Maven Wrapper
 
+## Maven Wrapper release from Apache (Tuesday, December 7th, 2021)
+
+The Apache Maven project is in the process of releasing the Maven Wrapper from its new home. You can give it a try here:
+https://github.com/apache/maven-wrapper
+
+Issues for the Maven Wrapper can be created in JIRA here:
+https://issues.apache.org/jira/projects/MWRAPPER/issues/MWRAPPER
+
 ## Ongoing Migration to Apache Maven
 
 The project codebase has been accepted to be included in the upstream Apache
